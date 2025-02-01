@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takanashi Hoshino Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images (3).ico" type="image/x-icon">
+
+        <!-- Open Graph tags --> 
+        <meta property="og:title" content="Takanashi Hoshino Website" />
+        <meta property="og:description" content="Takanashi Hoshino from Blue Archive is now in a website!" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/PaulTheBest1000/paulthebest1000-takanashi-hoshino-website/refs/heads/main/bandicam%202025-02-01%2014-42-34-915.jpg" />
+        <meta property="og:url" content="https://paulthebest1000.github.io/paulthebest1000-ushio-noa-website/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Takanashi Hoshino Website" />
+    
+        <!-- Twitter Card tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Takanashi Hoshino Website" />
+        <meta name="twitter:description" content="Takanashi Hoshino from Blue Archive is now in a website!" />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/PaulTheBest1000/paulthebest1000-takanashi-hoshino-website/refs/heads/main/bandicam%202025-02-01%2014-42-34-915.jpg" />
+        <meta name="twitter:url" content="https://paulthebest1000.github.io/paulthebest1000-ushio-noa-website/" />
+</head>
+<body>
+        <!-- Time and Calendar Container with an additional button and audio player -->
+        <div id="time-calendar-container">
+            <div id="time">Loading time...</div>
+            <div id="calendar">Loading calendar...</div>
+        </div>
+    <div class="container">
+        
+    <h2>Welcome to My Takanashi Hoshino Website!</h2>
+    <p>This is my sixth website using VS Code.</p>
+
+    <p>If you love Sorasaki Hina, click the button below:</p>
+    <button class="button1" onclick="showMessage()">Click Me!</button>
+    <button class="button2" onclick="window.location.href='https://github.com/PaulTheBest1000/paulthebest1000-shiroko-terror-website'">Go to Shiroko Terror Website!</button>
+
+    <div id="music-player">
+        <audio id="bg-music" loop>
+            <source src="Blue Archive OST 234.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="music-toggle-btn">Play Music</button>
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <span id="time-display">0:00 / 0:00</span>
+        <div id="message"></div> <!-- Container for custom messages -->
+    </div>
+
+    <div id="jpg-container" style="display:none;">
+        <img id="jpg" src="images (2).jpg" alt="Takanashi Hoshino JPG">
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download (3).jpg" alt="Nice Hoshino" class="image">
+        <div class="text" style="color: violet;">This is Hoshino from Blue Archive!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download (2).jpg" alt="Hoshino in a battle" class="image">
+        <div class="text" style="color: #FF10F0;">Hoshino is in battle!</div>
+    </div>
+
+    <p style="color: magenta; background-color: purple; font-size: 18px; font: bold; margin: 20px; padding: 10px;">More Hoshino Photos Below</p>
+
+    <div class="img-responsive image-container">
+        <img src="images (2).jpg" alt="Sitting Hoshino" class="image">
+        <div class="text" style="color: magenta;">Hoshino is cute when she sits!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="images (3).jpg" alt="Serious Hoshino" class="image">
+        <div class="text" style="color: magenta;">Hoshino is so damn serious!</div>
+    </div>
+
+    <div id="easter-egg" onclick="showSecret()" style="color: #fa64af;">Click me for a surprise!</div>
+<script>
+    function showSecret() {
+        alert('You found the secret! Takanashi Hoshino says hello!');
+    }
+</script>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
